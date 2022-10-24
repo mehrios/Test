@@ -1,0 +1,328 @@
+
+.middle__section {
+  min-width: 100%;
+  overflow: hidden;
+}
+.section__format {
+  margin-bottom: 249px;
+  margin-top: 50px;
+}
+.format__head {
+  font-family: "Roboto Slab";
+  font-size: 55px;
+  font-weight: 700;
+  margin-bottom: 90px;
+}
+.format__cards {
+  display: flex;
+}
+.format__card {
+  box-sizing: border-box;
+  width: 271px;
+  margin-right: 120px;
+}
+.card__blue-text {
+  color: #1e4681;
+  font-weight: 700;
+  font-size: 25px;
+  font-family: "Roboto";
+  margin-bottom: 10px;
+}
+.card__normal-text {
+  margin-top: 1px;
+  font-size: 18px;
+  font-family: "Roboto";
+}
+.section__list {
+  margin-bottom: 248px;
+}
+.list__head {
+  font-family: "Roboto Slab";
+  font-size: 55px;
+  font-weight: 700;
+  margin-bottom: 21px;
+}
+.list {
+  padding-left: 20px;
+}
+.list__items {
+  width: 662px;
+  font-size: 24px;
+  list-style: disc !important;
+  font-family: "Roboto";
+  padding: 100px;
+}
+.section__programm {
+  margin-bottom: 53px;
+}
+.programm__head {
+  font-family: "Roboto Slab";
+  font-size: 55px;
+  font-weight: 700;
+  margin-bottom: 95px;
+}
+.programm__cards {
+  /* width: 1280px; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 37px;
+}
+.programm__card {
+  background: #ffffff;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+  width: 399px;
+  height: 328px;
+}
+.programm__card-icon {
+  margin: 0 0 11px 0;
+}
+.programm__card-title {
+  margin-left: 20px;
+  margin-right: 14px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 130%;
+  font-family: "Roboto";
+}
+.programm__card-title-last {
+  margin-left: 20px;
+  margin-right: 14px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 130%;
+  font-family: "Roboto";
+}
+.programm__card-text-last {
+  font-size: 25px;
+  line-height: 130%;
+  margin: 0px 15px 23px 19px;
+  width: 250px;
+  font-family: "Roboto";
+}
+.programm__card-text {
+  font-size: 25px;
+  line-height: 130%;
+  margin: 32px 15px 23px 19px;
+  width: 250px;
+  font-family: "Roboto";
+}
+@media (max-width: 1279px) {
+  .container {
+    max-width: 834px;
+    margin: 0 auto;
+    padding: 0 30px;
+    box-sizing: content-box;
+  }
+  .format__head {
+    margin-bottom: 51px;
+    font-size: 32px;
+    width: 386.3px;
+    line-height: 130%;
+  }
+  .format__card {
+    width: 172px;
+  }
+  .list__items {
+    font-size: 14px;
+    line-height: 150%;
+  }
+  .list__head {
+    font-size: 32px;
+    width: 386px;
+    line-height: 101.38%;
+    margin-bottom: 12px;
+  }
+  .card__blue-text {
+    font-size: 15px;
+    line-height: 130%;
+  }
+  .card__normal-text {
+    font-size: 11px;
+    line-height: 130%;
+  }
+  .programm__head {
+    font-size: 32px;
+    line-height: 101.38%;
+    margin-bottom: 55px;
+  }
+  .programm__cards {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .programm__card-title {
+    font-size: 17px;
+    line-height: 130%;
+    margin-right: 8px;
+    margin-left: 12px;
+  }
+  .programm__card-title-last {
+    margin-top: 0px;
+    font-size: 17px;
+    line-height: 130%;
+    margin-right: 8px;
+    margin-left: 12px;
+    font-weight: bold;
+    font-family: "Roboto";
+  }
+  .programm__card-text-last {
+    font-size: 14px;
+    line-height: 130%;
+    width: 150px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    margin-left: 11px;
+  }
+  .programm__card-text {
+    font-size: 14px;
+    line-height: 130%;
+    width: 150px;
+    margin: 10px 9px 40px 11px;
+  }
+  .programm__icon-img {
+    width: 231px;
+    height: 92px;
+    margin-bottom: 7px;
+  }
+  .programm__icon-img-last {
+    width: 231px;
+    height: 92px;
+    margin-bottom: 0px;
+  }
+  .programm__card {
+    width: 231.09px;
+    height: 189.97px;
+  }
+  .programm__cards {
+    max-width: 834px;
+    gap: 21px;
+  }
+  .section__list {
+    margin-bottom: 143px;
+  }
+  .section__format {
+    margin-bottom: 144px;
+  }
+  .section__programm {
+    margin-bottom: 52px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 575px;
+  }
+  .section__format {
+    margin-bottom: 73px;
+  }
+  .format__head {
+    margin-bottom: 16px;
+    font-size: 26px;
+    line-height: 101.38%;
+  }
+  .format__card {
+    width: 150px;
+    padding-bottom: 20px;
+  }
+  .card__blue-text {
+    font-size: 12px;
+    line-height: 130%;
+  }
+  .card__normal-text {
+    font-size: 10px;
+    line-height: 130%;
+  }
+  .format__cards {
+    flex-direction: column;
+  }
+  .programm__cards {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+  .programm__head {
+    font-size: 36px;
+    line-height: 101.38%;
+    margin-bottom: 36px;
+    width: 100%;
+  }
+  .list__items {
+    width: 100%;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 15px;
+  }
+  .list__head {
+    font-size: 26px;
+    line-height: 101.38%;
+    margin-bottom: 10px;
+  }
+  .list__items {
+    font-size: 12px;
+    line-height: 150%;
+  }
+  .section__list {
+    margin-bottom: 85px;
+  }
+  .programm__head {
+    font-size: 26px;
+    line-height: 101.38%;
+    margin-bottom: 35px;
+  }
+  .programm__card-title {
+    font-size: 14px;
+    line-height: 130%;
+    margin-right: 8px;
+    margin-left: 12px;
+  }
+  .programm__card-title-last {
+    margin-top: 0px;
+    font-size: 14px;
+    line-height: 130%;
+    margin-right: 8px;
+    margin-left: 12px;
+    font-weight: bold;
+  }
+  .programm__card-text-last {
+    font-size: 12px;
+    line-height: 130%;
+    width: 120px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+  .programm__card-text {
+    font-size: 12px;
+    line-height: 130%;
+    width: 120px;
+    margin: 10px 9px 40px 11px;
+  }
+  .programm__card-icon {
+    margin-bottom: 0px;
+  }
+  .programm__icon-img {
+    width: 185.92px;
+    height: 74.56px;
+    margin-bottom: 5px;
+  }
+  .programm__icon-img-last {
+    width: 185.92px;
+    height: 74.56px;
+    margin-bottom: 0px;
+  }
+  .programm__card {
+    width: 185.92px;
+    height: 152.84px;
+  }
+  .section__programm {
+    margin-bottom: 47px;
+  }
+}
